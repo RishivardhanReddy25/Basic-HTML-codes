@@ -1,0 +1,68 @@
+<html lang="en"> 
+<meta charset="UTF-8">
+<head>
+<title> University Hospital Management System. </title>
+<h1> Fill Online Registration Form : </h1>
+<hr>
+</head>
+<body>
+<div class="container">
+<h2> Registeration Details </h2>
+<form action="submit.html" method="post">
+<p> </p>
+<p> ==> Fill the Details very clearly. </p> <br>
+<p> ==> PATIENT DETAILS </p> <br>
+<label for="name"> Enter Patient Name : </label>
+<input type="text" id="Patient Name" name="name" required> <br>
+<p> </p>
+<label> Patient Phone Number : </label>
+<input type="number" id="Phone Number" name="number" required> <br>
+<p></p>
+<label for="email"> Patient Email Id : </label>
+<input type="email" id="email" name="email" required> <br>
+<p> </p>
+<label for="address"> Patient Address : </label> 
+<textarea name="address" id="address" rows="2" cols="35"></textarea> </textarea> <br>
+<p> </p>
+<label> Male </label>
+<input type="radio" name="Gender" name="gender" required> 
+<label> Female </label>
+<input type="radio" name="Gender" name="gender" required><br>
+<p> </p>
+<label for="blood"> Blood Group </label>
+<select id="blood" name="blood">
+<option value="A+"> A+ </option>
+<option value="A-"> A- </option>
+<option value="B+"> B+ </option>
+<option value="B-"> B- </option>
+<option value="O+"> O+ </option>
+<option value="O-"> O- </option>
+<option value="AB+"> AB+ </option>
+<option value="AB-"> AB- </option>
+</select><br>
+<p></p>
+<label for="DOB"> Enter your Date of Birth </label>
+<input type="date" name="DOB" id="DOB"><br><p></p>
+<label for="Appointment"> Enter your Date & Time of Appointment </label>
+<input type="date">
+<input type="time">
+<p> </p> <br>
+<p> </p>
+<p> ==> PARENT/GUARDIAN DETAILS </p> <br>
+<label for="name"> Parent/Guardian Name : </label>
+<input type="text" id="Parent/Guardian Name" name="name" required> <br>
+<p></p>
+<label> Parent/Guardian Phone Number : </label>
+<input type="number" id="Parent/Guardian Phone Number" name="number" required><br>
+<p> </p>
+<label for="email"> Parent/Guardian Email Id : </label>
+<input type="email" id="Parent/Guardian Email" name="email" required> <br>
+<p> </p>
+<label for="address"> Parent/Guardian Address : </label> 
+<textarea name="address" id="Parent/Guardian Address" rows="2" cols="35"></textarea> </textarea> <br>
+<p> </p>
+<input type="button" value="SUBMIT">
+</body>
+</form>
+</div>
+</html>
